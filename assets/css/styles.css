@@ -51,6 +51,7 @@ nav{
     color:rgb(45, 75, 114);
     line-height: 20px;
     margin: none;border-radius: 7%;}
+.folo {color: lightgray;}
 .msg{border-radius: 0%;}
 .main {margin-left: auto; margin-right: auto; width: 850px;clear: both;position: relative;top: -150px;}
 .row{margin: 0;}
@@ -72,16 +73,25 @@ nav{
     display: table;
     clear: both;
   }
-  .leftinfo,.rightinfo{background-color: white;border-radius: 3%;margin:10px;}
+  .leftinfo,.rightinfo{background-color: white;border-radius: 1%;margin:10px;}
   .abtpg {position: relative; top:25px; padding-bottom: 10px;border-top: 1px lightgrey solid;}
   .leftinfo p {margin:10px; color: blue;}
   .leftinfo h4 {margin:10px;}
   .website {position: relative;top: 0; border-bottom: none;}
   .rightinfo{padding:10px;}
+  .rightinfo a{color:rgb(70, 110, 163); text-decoration: none; }
+  .rightinfo .info{position: relative;top: -10px;}
   .smllprfl {
             position: relative;
             float: left;
             background-color: rgb(70, 110, 163);
-            height: 35px;
-            width: 35px;}
-  
+            height: 45px;
+            width: 45px;}
+  .update {position: relative; top: -22px; left: 52px;font-size: 10px;}
+  p{font-size: 15px ; color: gray;}
+  .rightpic {
+        background-color:rgb(70, 110, 163);
+        width: 100%;    height: 250px;
+        margin-bottom: 5px;
+    }
+.rightadd{border-top: 1px lightgray solid; padding-top: 12px;}
